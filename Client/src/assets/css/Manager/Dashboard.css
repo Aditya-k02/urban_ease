@@ -1,0 +1,42 @@
+.summary-card {
+  border-radius: 12px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.summaryGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.summary-card:hover {
+  transform: translateY(-3px);
+}
+.chart-container {
+  width: 100%;
+  height: 300px;
+}
+
+.recharts-wrapper:focus,
+.recharts-surface:focus,
+.recharts-responsive-container:focus,
+.recharts-layer:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.notification-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+}
+.notification-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.notification-scroll::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+.dashboard-header {
+  position: sticky;
+  top: 0;
+  z-index: 1030;
+}

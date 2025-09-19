@@ -1,0 +1,15 @@
+{"level":"\u001b[33mwarn\u001b[39m","message":"\u001b[33mJWT_SECRET should be at least 32 characters long for security\u001b[39m","timestamp":"2026-02-06 09:16:29:1629"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment variables validated successfully\u001b[39m","timestamp":"2026-02-06 09:16:29:1629"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected\u001b[39m","timestamp":"2026-02-06 09:16:30:1630"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\u001b[33mJWT_SECRET should be at least 32 characters long for security\u001b[39m","timestamp":"2026-02-06 09:17:01:171"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment variables validated successfully\u001b[39m","timestamp":"2026-02-06 09:17:01:171"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected\u001b[39m","timestamp":"2026-02-06 09:17:03:173"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\u001b[33mJWT_SECRET should be at least 32 characters long for security\u001b[39m","timestamp":"2026-02-06 09:47:24:4724"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment variables validated successfully\u001b[39m","timestamp":"2026-02-06 09:47:24:4724"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected\u001b[39m","timestamp":"2026-02-06 09:47:25:4725"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\u001b[33mJWT_SECRET should be at least 32 characters long for security\u001b[39m","timestamp":"2026-02-09 23:52:10:5210"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment variables validated successfully\u001b[39m","timestamp":"2026-02-09 23:52:10:5210"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected\u001b[39m","timestamp":"2026-02-09 23:52:11:5211"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"\u001b[33mJWT_SECRET should be at least 32 characters long for security\u001b[39m","timestamp":"2026-02-10 00:51:55:5155"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32mEnvironment variables validated successfully\u001b[39m","timestamp":"2026-02-10 00:51:55:5155"}
+{"level":"\u001b[32minfo\u001b[39m","message":"\u001b[32m✅ Database connected\u001b[39m","timestamp":"2026-02-10 00:51:55:5155"}

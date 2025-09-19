@@ -1,0 +1,21 @@
+.AdActionEditBtn, .AdActionDeleteBtn {
+    border: 1px solid grey;
+}
+
+.AdActionDeleteBtn{
+    color: rgb(239, 68, 68);
+}
+
+.AdActionEditBtn{
+    color: rgb(1, 155, 194);
+}
+
+.AdActionEditBtn:hover {
+    color: white;
+    background-color: rgb(1, 155, 194);
+}
+
+.AdActionDeleteBtn:hover {
+    color: white;
+    background-color: rgb(239, 68, 68);
+}

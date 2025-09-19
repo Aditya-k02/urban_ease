@@ -1,0 +1,103 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  background: 
+    linear-gradient(135deg, #e0f2fe 0%, #f0f9ff 50%, #ffffff 100%);
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+.layout::before {
+  content: '';
+  position: fixed;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: 
+    radial-gradient(circle at 20% 30%, rgba(59, 130, 246, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 70%, rgba(16, 185, 129, 0.03) 0%, transparent 50%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  transition: margin-left 0.3s ease-in-out, width 0.3s ease-in-out;
+  padding: 32px 40px;
+  position: relative;
+  z-index: 1;
+}
+
+.main.collapsed {
+  margin-left: 100px;
+  width: calc(100% - 100px);
+  padding: 32px 30px;
+}
+
+.main.expanded {
+  margin-left: 230px;
+  width: calc(100% - 230px);
+}
+
+.contentWrapper {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding-bottom: 32px;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e1 transparent;
+}
+
+.transparentCard {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-radius: 24px;
+  box-shadow: 
+    0 4px 6px -1px rgba(0, 0, 0, 0.05),
+    0 2px 4px -1px rgba(0, 0, 0, 0.03),
+    0 0 0 1px rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  min-height: 80vh;
+  padding: 40px 48px;
+  transition: all 0.3s ease-in-out;
+}
+
+.transparentCard.collapsed {
+  padding: 36px 40px;
+}
+
+/* Custom Scrollbar Styles */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(241, 245, 249, 0.5);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, rgba(100, 116, 139, 0.6), rgba(71, 85, 105, 0.6));
+  border-radius: 10px;
+  border: 2px solid rgba(241, 245, 249, 0.5);
+  transition: background 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, rgba(71, 85, 105, 0.8), rgba(51, 65, 85, 0.8));
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(100, 116, 139, 0.6) rgba(241, 245, 249, 0.6);
+}

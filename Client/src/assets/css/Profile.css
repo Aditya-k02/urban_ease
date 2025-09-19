@@ -1,0 +1,121 @@
+.worker-profile-container {
+  background: #f8f9fc;
+  border-radius: 12px;
+  padding: 0;
+  width: 100%;
+}
+
+.profile-header {
+  background: linear-gradient(90deg, #0044a9, #06dde4);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  position: relative;
+}
+
+.profile-header img {
+  position: absolute;
+  left: 5%;
+  z-index: 10;
+  top: -10%;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+.profile-header h3 {
+  color: rgb(237, 237, 237);
+}
+
+.role-text {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.profile-actions button {
+  border-radius: 20px;
+}
+
+.cam-btn {
+  color: rgb(73, 73, 73);
+}
+
+.edit-btn {
+  color: rgb(73, 73, 73);
+}
+
+.cam-btn:hover,
+.edit-btn:hover {
+  background-color: rgb(243, 88, 31);
+}
+
+.card {
+  height: fit-content;
+}
+
+.info-card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.toggle-switch {
+  width: 45px;
+  height: 22px;
+  background: #ccc;
+  border-radius: 15px;
+  position: relative;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.toggle-switch.active {
+  background: #0d6efd;
+}
+
+.switch-circle {
+  width: 18px;
+  height: 18px;
+  background: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 3px;
+  transition: 0.3s;
+}
+
+.toggle-switch.active .switch-circle {
+  left: 24px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  color: #6c757d;
+  cursor: pointer;
+}
+
+.status-text {
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+/* Password requirements styling */
+.password-requirements {
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0;
+}
+
+.password-requirements li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  color: #666;
+}
+
+

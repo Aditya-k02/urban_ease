@@ -1,0 +1,56 @@
+.payment-card {
+  transition: all 0.3s ease;
+  border: 1px solid #f1f1f1;
+}
+.payment-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+.icon-box {
+  background: #f5f7ff;
+  border-radius: 12px;
+  padding: 8px 10px;
+}
+
+.filter-btn {
+  height:fit-content;
+  padding:7px;
+  border-radius:8px;
+  outline:none;
+  border:none;
+  cursor: pointer;
+  background-color: orangered;
+  color: white;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.reciept-btn{
+    outline: none;
+    padding: 6px 12px;
+    border: 1px solid rgba(128, 128, 128, 0.464);
+    background-color: white;
+}
+
+.payment-details-card .card-body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+
+
+.payments-grid::-webkit-scrollbar {
+  width: 6px;
+}
+.payments-grid::-webkit-scrollbar-thumb {
+  background-color: #ccc;
+  border-radius: 6px;
+}
+
+.reciept-btn:hover {
+  background-color: rgba(255, 68, 0, 0.872);
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+  color: white;
+
+}
